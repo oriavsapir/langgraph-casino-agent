@@ -1,6 +1,6 @@
 # Mohegan Sun — Dining
 
-Mohegan Sun offers over 45 food and beverage outlets ranging from world-class fine dining to casual eateries and quick-service options.
+Mohegan Sun offers **over 35 restaurants, bars & cafés** ranging from world-class fine dining to casual eateries and quick-service options. Make reservations at mohegansun.com/dining-reservations.html. Momentum members can use Choice Credits at select dining outlets.
 
 ## Fine Dining
 
@@ -19,6 +19,18 @@ Mohegan Sun offers over 45 food and beverage outlets ranging from world-class fi
 - **Dress Code**: Business casual
 - **Price Range**: $$$$ (Entrées $45–$80)
 - **Description**: A world-class steakhouse offering USDA Prime steaks dry-aged on premises, fresh seafood, and an award-winning wine cellar. The elegant interior features dark wood, leather seating, and sports memorabilia curated by Michael Jordan himself. Known for its signature 23-ounce ribeye and exceptional service.
+
+### Beauty & Essex
+- **Cuisine**: Upscale American / Lounge
+- **Location**: Casino of the Sky
+- **Type**: Fine dining with lounge • Small bites • Cocktails
+- **Description**: Features a special "Beauty for Two" menu for two. Sophisticated atmosphere with craft cocktails. Soar Momentum members get 60-day advance reservations.
+
+### Tao Asian Bistro & Lounge
+- **Cuisine**: Asian
+- **Location**: Casino of the Sky
+- **Type**: Bistro • Lounge • Cocktails
+- **Description**: Asian-inspired dining and lounge with craft cocktails and small bites. Soar Momentum members get 60-day advance reservations.
 
 ### Ballo Italian Restaurant
 - **Cuisine**: Contemporary Italian
@@ -109,19 +121,26 @@ Mohegan Sun offers over 45 food and beverage outlets ranging from world-class fi
 - **Hours**: Monday–Thursday 4:00 PM – 12:00 AM, Friday–Sunday 12:00 PM – 2:00 AM
 - **Description**: An extensive craft beer selection with over 80 beers on tap from local and national breweries. Also serves pub-style food.
 
-### Vista Lounge
+### Vista Lounge (VISTA Lounge at Wombi Rock)
 - **Location**: Casino of the Sky, overlooking the gaming floor
 - **Hours**: Daily 4:00 PM – 2:00 AM
-- **Description**: An upscale cocktail lounge with handcrafted cocktails, premium spirits, and a curated wine list. Live music and DJ sets on weekends.
+- **Description**: An upscale cocktail lounge with handcrafted cocktails, premium spirits, and a curated wine list. Top 40 DJ Set every night. See Entertainment section for VIP reservations.
 
 ### Tom's Urban
 - **Location**: Casino of the Sky
 - **Hours**: Daily 11:00 AM – 2:00 AM
 - **Description**: A lively social house with craft cocktails, creative bar bites, and a street-food-inspired menu. Features large-screen TVs for sports viewing.
 
+## Select Barrel Spirits Series
+
+Mohegan Sun aims to elevate your drinking experience with the Select Barrel Series — a curated program featuring premium spirits and tasting events. See mohegansun.com/poi/select-barrel-program.html for details.
+
 ## Dining Tips for Guests
 
-- **Reservations**: Highly recommended for all fine dining restaurants, especially on Friday and Saturday evenings. Reservations can be made by calling the restaurant directly or through the Mohegan Sun website.
-- **Momentum Rewards**: Momentum card members may earn and redeem points at select dining outlets. Ask about dining promotions at the Momentum desk.
-- **Private Dining**: Several restaurants offer private dining rooms for special occasions and group events. Contact the restaurant directly for availability.
-- **Dietary Accommodations**: Most restaurants can accommodate dietary restrictions including vegetarian, vegan, gluten-free, and allergy-specific requests. Please inform your server when ordering.
+- **Reservations**: Highly recommended for all fine dining restaurants. Make reservations at mohegansun.com/dining-reservations.html or by calling the restaurant directly.
+- **Brunch**: Mohegan Sun offers brunch options from upscale to casual dining at various restaurants.
+- **Momentum Rewards**: Momentum card members earn and redeem Momentum Dollars at dining outlets. Soar members: 60-day advance reservations at Tao and Beauty & Essex; The Crafty Slice (one complimentary pizza per month); Chef's Choice amuse-bouche at Tuscany.
+- **Choice Credits**: Momentum members can use Choice Credits at participating restaurants.
+- **Gift Cards**: Mohegan Sun digital gift cards available at mohegansun.egiftify.com
+- **Private Dining**: Several restaurants offer private dining rooms for special occasions. Contact the restaurant directly for availability.
+- **Dietary Accommodations**: Most restaurants accommodate vegetarian, vegan, gluten-free, and allergy-specific requests. Inform your server when ordering.

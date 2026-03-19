@@ -1,9 +1,9 @@
 # Mohegan Sun — Amenities & Experiences
 
-## Mandara Spa
+## Spas at Mohegan Sun / Mandara Spa
 
 ### Overview
-The Mandara Spa at Mohegan Sun is a luxurious full-service spa offering an extensive menu of treatments inspired by healing traditions from around the world. Located on the second floor of the Sky Tower, the spa provides a serene escape from the excitement of the casino floor.
+The Mandara Spa (part of "Spas at Mohegan Sun") is a luxurious full-service spa offering an extensive menu of treatments inspired by healing traditions from around the world. Located on the second floor of the Sky Tower, the spa provides a serene escape from the excitement of the casino floor. "Pamper yourself in luxury."
 
 ### Hours
 - Monday–Thursday: 9:00 AM – 7:00 PM
@@ -23,10 +23,13 @@ Spa guests enjoy access to the relaxation lounge, steam room, sauna, and whirlpo
 ### Reservations
 Advance booking is recommended, especially for weekends and holidays. Cancellations must be made at least 4 hours prior to the appointment to avoid a cancellation fee.
 
+### Momentum Discounts
+Momentum members receive spa service discounts with Momentum Dollars: 5–10% off Sunday–Thursday (Ignite/Leap), 10% off any day (Ascend/Soar).
+
 ## The Shops at Mohegan Sun
 
 ### Overview
-The Shops at Mohegan Sun feature a curated collection of over 40 retail stores offering fashion, jewelry, accessories, gifts, and specialty items.
+The Shops at Mohegan Sun feature **over 30 world-class retail options** — a curated collection of fashion, jewelry, accessories, gifts, and specialty items.
 
 ### Highlighted Stores
 - **Tiffany & Co.**: Fine jewelry and accessories
@@ -59,11 +62,11 @@ Mohegan Sun Golf Club is an 18-hole championship course located just minutes fro
 - **Tee Times**: Available by phone or online; advance booking recommended
 
 ### Amenities
-- Pro shop with equipment and apparel
+- Pro shop (Golf Shop) with equipment and apparel — Momentum members get 10% discount
+- Greenside Grille & Pub — 10% discount for Momentum members
 - Practice facilities including driving range and putting green
 - PGA professional instruction available (individual and group lessons)
 - On-course beverage cart
-- Clubhouse with bar and light dining
 
 ## Kids Quest & Cyber Quest
 
@@ -96,9 +99,13 @@ Mohegan Sun Golf Club is an 18-hole championship course located just minutes fro
 - **Features**: Heated indoor pool, hot tub/whirlpool, poolside lounge chairs, towel service
 - **Rules**: Children under 16 must be accompanied by an adult. No outside food or beverages. Proper swim attire required.
 
+## Supercharged Indoor Karting & Trampoline Park
+
+Family fun with indoor go-karting and trampoline park. Part of Mohegan Sun's Family Fun offerings alongside Kids Quest, Cyber Quest, Game On, and Connecticut Sun games.
+
 ## Meeting & Event Spaces
 
-Mohegan Sun offers over 100,000 square feet of flexible meeting and event space, including:
+Mohegan Sun offers legendary meetings, conventions and expos with over 100,000 square feet of flexible meeting and event space, including:
 - **Convention Center**: 25,000 sq ft of contiguous space, divisible into multiple configurations
 - **Ballrooms**: Multiple ballroom spaces for galas, weddings, and large events
 - **Meeting Rooms**: 18 breakout rooms ranging from 400 to 2,000 sq ft

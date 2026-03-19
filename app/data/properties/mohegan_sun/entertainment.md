@@ -1,6 +1,6 @@
 # Mohegan Sun — Entertainment
 
-Mohegan Sun is one of the premier entertainment destinations in the northeastern United States, hosting hundreds of events each year across multiple world-class venues.
+Mohegan Sun is one of the premier entertainment destinations in the northeastern United States. "A world at play and a world to its own" — the resort offers the best in music, sports, comedy and more across multiple world-class venues. Home to the Connecticut Sun WNBA team.
 
 ## Venues
 
@@ -30,34 +30,74 @@ Mohegan Sun is one of the premier entertainment destinations in the northeastern
 
 ## Nightlife
 
-### Avalon
+Mohegan Sun offers 23 late-night hot spots. Vista Lounge features a Top 40 DJ set every night.
+
+### Avalon Nightclub
 - **Location**: Casino of the Sky
-- **Hours**: Friday and Saturday 10:00 PM – 2:00 AM (seasonal; check current schedule)
+- **Type**: Nightclub • DJs • Dancing
 - **Age**: 21+
-- **Description**: Mohegan Sun's premier nightclub featuring world-renowned DJs, themed party nights, VIP bottle service, and a state-of-the-art sound and lighting system. The club spans multiple levels with a main dance floor, VIP balcony, and private cabanas. Dress code is enforced: upscale attire required, no sneakers, athletic wear, or hats.
+- **Cover**: Fridays — Free until 10 PM, then $10; Saturdays — $10 until 10 PM, then $20 (prices may vary for special events)
+- **Description**: A stunning 10,000 sq ft nightclub with high-energy audio by EAW. Ideal for bachelorette, birthday, and corporate parties. Features VIP bottle service, a delicious cocktail menu, and awe-inspiring visuals. Dress to impress: dress shoes and collared shirts preferred. No athletic wear, coats, jackets, hoodies, boots, shorts, or hats.
 
 ### novelle
 - **Location**: Casino of the Sky
-- **Hours**: Thursday–Saturday 8:00 PM – 2:00 AM
+- **Type**: Lounge • Cocktails • Gaming
 - **Age**: 21+
-- **Description**: An ultra-lounge experience combining craft cocktails, live DJ performances, and a sophisticated atmosphere. Features plush seating, creative lighting design, and an upscale cocktail menu. Perfect for pre- or post-dinner drinks and socializing.
+- **Description**: Shifts seamlessly from chic dining atmosphere to luxurious lounge experience. Offers dinner & late night dining, craft cocktails, VIP bottle service, and public and private table games. Casual elegant attire recommended.
+
+### VISTA Lounge at Wombi Rock
+- **Type**: Dancing • Lounge • Gaming
+- **Cover**: No cover on most nights (exceptions: New Year's Eve and select special events)
+- **Description**: Join Vista Lounge every night for a Top 40 DJ Set. Plush seating and premium drinks in a stylish ultra-lounge environment. Dress to impress: dress shoes and collared shirts preferred. VIP table reservations: reservations@vistamohegan.com
+
+### Comix Roadhouse
+- **Type**: Live Comedy • Karaoke • Bull Riding
+- **Description**: World-class comedy venue with a mechanical bull, karaoke, and live local bands. High-energy entertainment for an unforgettable night.
+
+### Game On
+- **Type**: Bowling • Classic Arcade • Craft Beer
+- **Description**: Bowling, karaoke, classic arcade games, and a lively sports bar atmosphere. Generally no age restrictions; transitions to 21+ on Friday and Saturday evenings (at management discretion).
+
+### The Lansdowne Irish Pub & Music House
+- **Type**: Craft Beer • Live Music • Karaoke
+- **Description**: Irish pub experience with craft beers, live music, and karaoke. Private events available.
+
+### Tao Asian Bistro & Lounge
+- **Type**: Cocktails • Small Bites • Lounge
+- **Description**: Asian-inspired lounge with craft cocktails and small bites. Soar members get 60-day advance reservations.
+
+### Beauty & Essex
+- **Type**: Lounge • Small Bites • Cocktails
+- **Description**: Upscale lounge with small bites and cocktails. Features a special "Beauty for Two" menu. Soar members get 60-day advance reservations.
+
+### Clay Pipe Cigar Bar
+- **Type**: Cocktails • Tasting Events • Premium Cigars
+- **Description**: Premium cigar bar with cocktails and tasting events.
+
+### ATY Bar & Bonbons
+- **Type**: Lounge • Small Bites • Cocktails
+- **Description**: Lounge offering small bites and cocktails.
 
 ## Seasonal & Special Events
 
 Mohegan Sun hosts numerous special events throughout the year:
+- **Sun Whiskey Union**: Extraordinary showcase of whiskey, bourbon, scotch and rye with live music, food, and desserts (e.g., April 4th at Earth Ballroom)
+- **Sun Tequila Tasting**: A Cinco de Mayo experience (e.g., May 8th)
+- **Nothing But Net (And Bets)**: March Madness event (e.g., March 17th – April 6th)
+- **Family Days**: Family-friendly activities (e.g., April 15th & 16th)
+- **Leprecon**: St. Patrick's Day Bar Stroll (e.g., March 20th)
 - **New Year's Eve Celebration**: Multiple venue parties, live performances, and a midnight countdown
-- **Sun Wine & Food Fest**: An annual multi-day wine and food festival featuring celebrity chefs, tastings, and cooking demonstrations (typically held in January/February)
+- **Sun Wine & Food Fest**: Annual multi-day wine and food festival (typically January/February)
 - **PGA Golf Events**: Hosted at the Mohegan Sun Golf Club
 - **Championship Boxing & MMA**: Regular fight nights in the arena
-- **Holiday Events**: Themed celebrations for major holidays including Thanksgiving, Christmas, and Fourth of July
 
-## Live Music Schedule
+## Live Music & Entertainment Schedule
 
-Live music is available throughout the resort on most days:
-- **Wolf Den**: Free shows nightly (see schedule)
-- **Vista Lounge**: Live acoustic sets Thursday–Saturday evenings
-- **SolToro**: Live Latin music Friday and Saturday nights
-- **The Beer Garden**: Live bands on Saturday afternoons
+- **Wolf Den**: Free shows nightly (see schedule at mohegansun.com)
+- **Vista Lounge**: Top 40 DJ Set every night
+- **Lansdowne Irish Pub**: Live music and karaoke
+- **Comix Roadhouse**: Comedy, karaoke, live bands, line dancing, and special events (e.g., Nutrl Karaoke, Line Dancing DJ Party)
+- **Arena**: Concerts, sports (Connecticut Sun, CIAC finals), expos (e.g., Connecticut Fishing & Outdoor Show)
 
 ## Entertainment Tips for Guests
 

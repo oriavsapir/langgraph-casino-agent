@@ -1,4 +1,5 @@
 import logging
+from typing import Any
 
 import chromadb
 from langchain_core.documents import Document
@@ -17,10 +18,17 @@ class PropertyKnowledgeStore:
     be swapped out for OpenAI or any other embedding provider.
     """
 
-    def __init__(self, documents: list[Document] | None = None) -> None:
-        self._client = chromadb.Client()
+    def __init__(
+        self,
+        documents: list[Document] | None = None,
+        *,
+        collection_name: str | None = None,
+        client: Any = None,
+    ) -> None:
+        self._client = client if client is not None else chromadb.Client()
+        name = collection_name if collection_name is not None else COLLECTION_NAME
         self._collection = self._client.get_or_create_collection(
-            name=COLLECTION_NAME,
+            name=name,
             metadata={"hnsw:space": "cosine"},
         )
 

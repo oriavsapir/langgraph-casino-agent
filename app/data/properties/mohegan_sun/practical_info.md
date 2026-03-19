@@ -5,7 +5,7 @@
 Mohegan Sun is a vast property. The two casinos, Casino of the Earth and Casino of the Sky, are connected via the Shops at Mohegan Sun, a covered walkway with moving walkways (people movers) that makes it easy to traverse the resort. Walking from one end to the other takes approximately 10–15 minutes at a leisurely pace.
 
 ### Shuttle Service
-Complimentary shuttle service is available between the hotel towers and remote parking areas. Shuttles run approximately every 10–15 minutes during peak hours.
+**Note**: There will be no shuttle or ferry service starting October 13th, 2025. Check back in May 2026 for the 2026 schedule. Complimentary shuttle service may be available at other times between hotel towers and remote parking — verify current schedule on the website.
 
 ## ATM & Banking
 
@@ -45,16 +45,32 @@ Mohegan Sun is fully accessible and compliant with ADA requirements:
 - TTY phones and hearing-assisted listening devices are available at the arena and event venues
 - Accessible hotel rooms available in both towers (see Hotel section)
 
+## Transportation Options
+
+- **Car**: Within 45 minutes from Providence, Hartford, and New Haven; ~90 minutes to Boston; ~2 hours from New York. 13,000+ on-site parking spaces.
+- **Train**: Amtrak to New London (~20 min from Mohegan Sun); Metro-North to New Haven with Shore Line East to New London.
+- **Bus (local)**: SEAT Bus (Norwich, CT) — seatbus.com or 860-886-2631. Yellow Cab 860-443-4321.
+- **Ferry**: Cross Sound Ferry (Orient Point, NY to New London, CT) — 7 days a week. Block Island Express 860-444-4624. Marina at American Wharf (Norwich, 3.6 miles).
+- **Plane**: Bradley (Hartford), T.F. Green (Warwick, RI), Groton-New London, JFK, Logan (Boston).
+- **Limo**: Call 860-862-8125 or 1-888-320-4577. Limo office hours: 6:00 AM – 2:00 AM.
+- **Charter Bus**: Email charterreservations@mohegansun.com. Line-run buses: see mohegansun.com Getting Here page.
+
 ## Frequently Asked Questions
 
 ### Can I bring outside food or beverages into the casino?
 Outside food and beverages are not permitted on the casino floor or in restaurants. Sealed, commercially packaged water bottles are generally allowed.
 
 ### Is there a dress code for the casino?
-The casino floor is casual; there is no strict dress code. However, shoes and shirts are required at all times. Specific restaurants and nightclubs may enforce dress codes (see individual venue listings).
+The casino floor is casual; shoes and shirts required. Nightlife venues: Avalon and Vista Lounge — dress to impress (dress shoes, collared shirts; no athletic wear, hoodies, shorts, hats). novelle — casual elegant. "Black is eternally chic" when unsure.
+
+### Are there cover charges at nightclubs?
+Avalon: Fridays — free until 10 PM, then $10; Saturdays — $10 until 10 PM, then $20 (varies for special events). Vista Lounge: no cover most nights; exceptions for New Year's Eve and select events.
+
+### Is there karaoke?
+Yes. Karaoke available at Comix Roadhouse, Game On, and The Lansdowne Irish Pub & Music House.
 
 ### Can I smoke inside the casino?
-Designated smoking sections are available on the casino floor in both casinos. The majority of the gaming floor, all restaurants, hotel rooms, and public areas are non-smoking. A dedicated outdoor smoking area is also available.
+Designated smoking sections are available on the casino floor. The majority of the gaming floor, all restaurants, hotel rooms, and public areas are non-smoking.
 
 ### Do you offer gift cards?
 Yes, Mohegan Sun gift cards are available at the Momentum desks and select retail locations. Gift cards can be used at participating restaurants, shops, and spa services. They cannot be used for gaming.
@@ -63,7 +79,10 @@ Yes, Mohegan Sun gift cards are available at the Momentum desks and select retai
 Yes, the Mohegan Sun mobile app is available for iOS and Android. The app features your Momentum account, property maps, event schedules, restaurant menus, and the ability to book hotel rooms and make dining reservations.
 
 ### What if I need to charge my phone?
-Phone charging stations are available at several locations on the casino floor. Additionally, portable chargers can be rented from select locations in the Shops at Mohegan Sun.
+Phone charging stations are available at several locations on the casino floor. Portable chargers can be rented from select locations in the Shops at Mohegan Sun.
+
+### Can I make VIP reservations at nightlife venues?
+Yes. VIP table reservations available at Avalon (avalonmohegansun.com/vip-tables/) and novelle. Vista Lounge: email reservations@vistamohegan.com. Most venues offer private or semi-private events — see Small Groups event form on the website.
 
 ### Is there nearby accommodation outside the resort?
 Several hotels and inns are located within a 15-minute drive of Mohegan Sun in Uncasville, Norwich, and New London. However, staying on-site provides the most convenient access to all resort amenities and events.

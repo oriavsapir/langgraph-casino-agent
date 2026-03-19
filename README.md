@@ -1,3 +1,8 @@
+**In a real-world scenario, with the company’s approval, I would likely build a tool that performs scraping of the client website endpoints. I would run a script that collects the site’s endpoints once a day using a cron job to keep the data up to date, and gathers all relevant information.**   
+**The collected data would then be stored in a vector database.**   
+**Since scraping a website without permission can lead to blocking and legal issues, I instead included the information as Markdown files.**
+
+
 # Casino Property Concierge — AI-Powered Conversational Agent
 
 A production-grade conversational AI agent that answers guest questions about a specific casino property. Built with **LangGraph**, **FastAPI**, **React**, and **RAG** (Retrieval-Augmented Generation) over structured property knowledge.
@@ -249,15 +254,3 @@ The agent enforces boundaries through two complementary mechanisms:
 - **Session continuity** — Pass `session_id` to maintain conversation context
 - **Quick suggestions** — Welcome screen with suggested questions (dining, rooms, gaming, etc.)
 - **Responsive layout** — Works on desktop and mobile
-
----
-
-## Future Improvements
-
-- **Streaming responses** via Server-Sent Events for better UX
-- **Persistent checkpointer** (Redis/PostgreSQL) for cross-restart session continuity
-- **Hybrid retrieval** combining semantic search with keyword/BM25 scoring
-- **Multi-property support** with dynamic property switching
-- **Observability** with LangSmith tracing for production debugging
-- **Rate limiting** and authentication for production API deployment
-- **Response validation node** to detect and retry hallucinated answers

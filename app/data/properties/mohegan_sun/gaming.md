@@ -62,31 +62,37 @@ Mohegan Sun features over 364,000 square feet of gaming space across two casinos
 - **Table Minimums**: $100 and above
 - **Amenities**: Private gaming salon, dedicated hosts, premium food and beverage service, reserved parking
 
+## Online Gaming & Sportsbook
+
+- **MoheganSunCasino.com**: Play casino games and earn Momentum rewards online from anywhere in CT. Link your Momentum account to earn Momentum Dollars and Status Points while playing online.
+- **Mohegan Sun FanDuel Sportsbook**: Wager and earn Momentum Dollars on select sportsbook wagers.
+- **Race Book**: Traditional race book wagering available.
+
 ## Momentum Rewards Program
 
-Momentum is Mohegan Sun's loyalty and rewards program, offering benefits and rewards for gaming and resort spending.
+Momentum is Mohegan Sun's loyalty and rewards program — "Your Key To More." Sign up at Player's Club Booths or Momentum enrollment kiosks (free). Momentum Dollars can be redeemed at shops, restaurants, hotel, show tickets, golf, and more. Momentum is also valid at Mohegan Pennsylvania in Wilkes-Barre.
 
 ### How It Works
-- Earn Momentum Points by playing slots, table games, and poker, as well as by dining and shopping at participating outlets
-- Points can be redeemed for free play, dining, hotel stays, entertainment, and merchandise
-- Membership is free and cards can be obtained at any Momentum desk on the casino floor
+- **Earn**: Momentum Dollars and Status Points when playing with your Momentum card — in person or online at MoheganSunCasino.com
+- **Redeem**: Momentum Dollars at over 100 dining, shopping, nightlife, entertainment, hotel, spa, and golf options
+- **Level Up**: Earn Status Points to elevate your Momentum Status and unlock more benefits
+- **Play+ Card**: Cashless gaming with Momentum Play+ (Leap tier and above)
 
-### Tier Levels
-1. **Momentum Basic**: Entry level — earn and redeem points, receive member-only offers
-2. **Ignition**: Enhanced benefits including bonus point multipliers and access to exclusive promotions
-3. **All-In**: Premium tier with accelerated earning, priority check-in, VIP lounge access, and dedicated host
-4. **Dream**: Invitation-only top tier with the ultimate in personalized service, luxury amenities, premium event access, and more
+### Tier Levels (Status Points Required)
+1. **Core**: Begin your journey — earn and redeem Momentum Dollars
+2. **Ignite**: 400 Status Points — 10% Momentum Dollar Accelerator
+3. **Leap**: 600 Status Points — 15% Accelerator, Play+ Card access
+4. **Ascend**: 1,400 Status Points — 20% Accelerator, Play+ VIP Card, VIP Lounges with Choice Credits
+5. **Soar**: 4,000 Status Points — 25% Accelerator, priority lines, complimentary golf rounds, exclusive Soar cocktail menu, and more
 
-### Key Benefits by Tier
-- **All Tiers**: Points earning on gaming and non-gaming spend, promotional offers, birthday rewards
-- **Ignition+**: Bonus point events, room rate discounts
-- **All-In+**: Priority hotel check-in, VIP lounge access, complimentary valet parking, dedicated casino host
-- **Dream**: Full concierge service, premium suite access, VIP event invitations, personalized gifts
+### Key Benefits
+- **All Tiers**: Earn Momentum Dollars (in-person and online), Status Points, Achievement Awards, Momentum Priority Pass, discounted hotel rates
+- **Soar**: Priority Soar lines at Arena and Wombi Rock Cage, 60-day advance reservations at Tao & Beauty & Essex, complimentary golf, Chef's Choice at Tuscany, exclusive Soar cocktail menu (up to 2 complimentary cocktails daily at select bars)
 
 ## Responsible Gaming
 
-Mohegan Sun is committed to responsible gaming and offers the following resources:
-- **Self-Exclusion Program**: Guests may voluntarily exclude themselves from gaming at Mohegan Sun
-- **Problem Gambling Resources**: The Connecticut Council on Problem Gambling helpline is available at 1-888-789-7777
-- **Limit Setting**: Guests can set personal time and money limits through the Momentum program
-- **Trained Staff**: All gaming staff are trained to recognize signs of problem gambling and can provide resource information
+Guests must be 21+ to game. Mohegan Sun is committed to responsible gaming:
+- **Self-Exclusion Program**: Guests may voluntarily exclude themselves from gaming
+- **Problem Gambling Helpline**: Call 1-888-789-7777 (Problem Gambling Programs work)
+- **Limit Setting**: Set personal time and money limits through the Momentum program
+- **Trained Staff**: Gaming staff are trained to recognize signs of problem gambling
