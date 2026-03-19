@@ -254,3 +254,8 @@ The agent enforces boundaries through two complementary mechanisms:
 - **Session continuity** — Pass `session_id` to maintain conversation context
 - **Quick suggestions** — Welcome screen with suggested questions (dining, rooms, gaming, etc.)
 - **Responsive layout** — Works on desktop and mobile
+
+# POC
+<img width="792" height="927" alt="image" src="https://github.com/user-attachments/assets/3788d2f4-45b7-4a5c-9f69-28692b765426" />
+![Uploading image.png…]()
+
