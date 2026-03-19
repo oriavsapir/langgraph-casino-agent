@@ -1,6 +1,6 @@
 # Casino Property Concierge — AI-Powered Conversational Agent
 
-A production-grade conversational AI agent that answers guest questions about a specific casino property. Built with **LangGraph**, **FastAPI**, and **RAG** (Retrieval-Augmented Generation) over structured property knowledge.
+A production-grade conversational AI agent that answers guest questions about a specific casino property. Built with **LangGraph**, **FastAPI**, **React**, and **RAG** (Retrieval-Augmented Generation) over structured property knowledge.
 
 **Loaded property:** Mohegan Sun (Uncasville, CT)
 
@@ -9,32 +9,29 @@ A production-grade conversational AI agent that answers guest questions about a 
 ## Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                        FastAPI Layer                        │
-│   POST /api/v1/chat       GET /api/v1/health               │
-└──────────────────────┬──────────────────────────────────────┘
-                       │
-                       ▼
-┌─────────────────────────────────────────────────────────────┐
-│                    LangGraph Agent                          │
-│                                                             │
-│  START ──► classify ──┬── property_question ──► retrieve    │
-│                       │                           │         │
-│                       │                        generate     │
-│                       │                           │         │
-│                       │                          END        │
-│                       ├── action_request ──► decline ► END  │
-│                       ├── off_topic ──────► decline ► END   │
-│                       ├── greeting ──────► greet ──► END    │
-│                       └── farewell ──────► farewell ► END   │
-└──────────────────────┬──────────────────────────────────────┘
-                       │
-                       ▼
-┌─────────────────────────────────────────────────────────────┐
-│                   Knowledge Layer                           │
-│  Markdown files ──► Chunking ──► ChromaDB vector store      │
-│                                  (semantic similarity)      │
-└─────────────────────────────────────────────────────────────┘
+                    ┌─────────────────────────────────────────┐
+                    │           nginx (port 80)               │
+                    │  /api/* → app:8000   /* → ui:3000       │
+                    └──────────────────┬──────────────────────┘
+                                       │
+         ┌─────────────────────────────┼─────────────────────────────┐
+         │                             │                             │
+         ▼                             ▼                             ▼
+┌─────────────────┐         ┌─────────────────┐         ┌─────────────────┐
+│   React UI      │         │  FastAPI API    │         │  LangGraph      │
+│   (port 3000)   │         │  (port 8000)    │         │  Agent          │
+│   Chat          │         │  /chat  /health │         │  classify →     │
+│                 │         │                 │         │  retrieve →     │
+└─────────────────┘         └────────┬────────┘         │  generate       │
+                                     │                  └────────┬────────┘
+                                     │                           │
+                                     └───────────────────────────┘
+                                                     │
+                                                     ▼
+                                     ┌─────────────────────────────┐
+                                     │  ChromaDB vector store      │
+                                     │  (Markdown → chunks)        │
+                                     └─────────────────────────────┘
 ```
 
 ### Key Design Decisions
@@ -57,13 +54,13 @@ A production-grade conversational AI agent that answers guest questions about a 
 
 ```
 ai-backend/
-├── app/
+├── app/                         # Backend API
 │   ├── main.py                  # FastAPI application entry-point
-│   ├── config.py                # Pydantic settings (env-based configuration)
+│   ├── config.py                # Pydantic settings (LLM provider, keys)
 │   ├── api/
 │   │   ├── schemas.py           # Request/response Pydantic models
 │   │   ├── routes.py            # API endpoint handlers
-│   │   └── dependencies.py      # App context factory (wires everything)
+│   │   └── dependencies.py      # App context (OpenAI or Gemini LLM)
 │   ├── agent/
 │   │   ├── state.py             # LangGraph state definition
 │   │   ├── nodes.py             # Graph nodes (classify, retrieve, generate, …)
@@ -72,16 +69,24 @@ ai-backend/
 │   │   ├── loader.py            # Markdown ingestion and chunking
 │   │   └── store.py             # ChromaDB vector store wrapper
 │   └── data/properties/
-│       └── mohegan_sun/         # Property knowledge base (7 markdown files)
+│       └── mohegan_sun/         # Property knowledge base (8 markdown files)
+├── ui/                          # React chat frontend
+│   ├── src/
+│   │   ├── App.tsx              # Main chat layout
+│   │   ├── api.ts               # Chat API client
+│   │   └── components/          # Header, MessageBubble, InputBar, WelcomeScreen
+│   ├── Dockerfile               # Build + serve (port 3000)
+│   └── package.json
 ├── tests/
-│   ├── conftest.py              # Shared fixtures
+│   ├── conftest.py              # Shared fixtures (incl. fake ChromaDB embedding)
 │   ├── test_loader.py           # Document loader tests
 │   ├── test_store.py            # Vector store tests
 │   ├── test_nodes.py            # Individual node tests (mocked LLM)
 │   ├── test_graph.py            # Full graph integration tests (mocked LLM)
 │   └── test_api.py              # API endpoint tests
-├── Dockerfile                   # Multi-stage: runtime + test targets
-├── docker-compose.yml           # App + test services
+├── Dockerfile                   # Backend: runtime + test targets
+├── docker-compose.yml           # app, ui, nginx, tests
+├── nginx.conf                   # Reverse proxy: /api → app, / → ui
 ├── requirements.txt
 ├── pyproject.toml
 ├── .env.example
@@ -113,24 +118,40 @@ pip install -r requirements.txt
 
 # Configure environment
 cp .env.example .env
-# Edit .env: set OPENAI_API_KEY (default) or LLM_PROVIDER=gemini + GEMINI_API_KEY
+# Edit .env — see LLM configuration below
 
 # Run the server
 uvicorn app.main:app --reload
 ```
 
+### LLM Configuration
+
+| Provider | .env settings |
+|----------|---------------|
+| **OpenAI** (default) | `LLM_PROVIDER=openai`, `OPENAI_API_KEY=sk-...` |
+| **Google Gemini** | `LLM_PROVIDER=gemini`, `GEMINI_API_KEY=...` |
+
 The API will be available at `http://localhost:8000`. Interactive docs at `http://localhost:8000/docs`.
 
-### Docker Setup
+### Docker Setup (recommended)
 
 ```bash
 # Configure environment
 cp .env.example .env
-# Edit .env: set OPENAI_API_KEY (default) or LLM_PROVIDER=gemini + GEMINI_API_KEY
+# Edit .env — set LLM provider and API key (see LLM Configuration above)
 
-# Build and run
+# Build and run (backend + UI + nginx)
 docker compose up --build
+```
 
+| URL | Service |
+|-----|---------|
+| **http://localhost** | Chat UI (via nginx) |
+| **http://localhost:3000** | React UI directly |
+| **http://localhost:8000** | API + Swagger docs |
+| **http://localhost:8000/docs** | Interactive API documentation |
+
+```bash
 # Run tests in Docker
 docker compose run --rm tests
 ```
@@ -151,10 +172,10 @@ Send a message and receive the agent's response.
 }
 ```
 
-**Response:**
+**Response:** (`reply` may contain Markdown — lists, **bold**, etc.)
 ```json
 {
-  "reply": "We have two excellent Italian dining options! Todd English's Tuscany in Casino of the Sky serves rustic Italian cuisine with an open kitchen and wood-burning oven (Wed–Sun, 5–10 PM, $$$$). Ballo Italian Restaurant in Casino of the Earth offers contemporary Italian dishes (Thu–Mon, 5–10 PM, $$$). Reservations are recommended for both.",
+  "reply": "We have two excellent Italian dining options! **Todd English's Tuscany** in Casino of the Sky...",
   "session_id": "a1b2c3d4-...",
   "property_name": "Mohegan Sun"
 }
@@ -178,17 +199,21 @@ Health check endpoint.
 ## Running Tests
 
 ```bash
-# Run all tests
+# Local: run all tests
 pytest
 
-# With verbose output
+# Local: verbose output
 pytest -v
 
-# With coverage report
+# Local: with coverage
 pytest --cov=app --cov-report=term-missing
+
+# Docker: run tests
+docker compose run --rm tests
 ```
 
-All tests mock the LLM so they run **without an OpenAI API key** and complete in seconds.
+- **LLM**: All tests mock the LLM — no OpenAI/Gemini API key required
+- **ChromaDB**: Tests use a fake embedding function — no model download; tests complete in seconds
 
 ---
 
@@ -217,6 +242,16 @@ The agent enforces boundaries through two complementary mechanisms:
 
 ---
 
+## UI Features
+
+- **React + TypeScript** — Chat interface with luxury casino styling (dark theme, gold accents)
+- **Markdown rendering** — Bot responses support **bold**, lists, headings
+- **Session continuity** — Pass `session_id` to maintain conversation context
+- **Quick suggestions** — Welcome screen with suggested questions (dining, rooms, gaming, etc.)
+- **Responsive layout** — Works on desktop and mobile
+
+---
+
 ## Future Improvements
 
 - **Streaming responses** via Server-Sent Events for better UX
@@ -226,4 +261,3 @@ The agent enforces boundaries through two complementary mechanisms:
 - **Observability** with LangSmith tracing for production debugging
 - **Rate limiting** and authentication for production API deployment
 - **Response validation node** to detect and retry hallucinated answers
-- **Chat UI** — a lightweight frontend for demo purposes
