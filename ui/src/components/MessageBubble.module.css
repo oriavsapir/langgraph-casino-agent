@@ -67,6 +67,31 @@
   word-break: break-word;
 }
 
+/* Markdown styling for bot messages */
+.text p {
+  margin: 0 0 0.6em 0;
+}
+.text p:last-child {
+  margin-bottom: 0;
+}
+.text strong {
+  font-weight: 600;
+}
+.text ul,
+.text ol {
+  margin: 0.5em 0;
+  padding-left: 1.4em;
+}
+.text li {
+  margin: 0.25em 0;
+}
+.text h1,
+.text h2,
+.text h3 {
+  margin: 0.8em 0 0.4em;
+  font-size: inherit;
+}
+
 .time {
   display: block;
   font-size: 0.68rem;

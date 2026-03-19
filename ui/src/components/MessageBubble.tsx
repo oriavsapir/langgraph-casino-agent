@@ -1,3 +1,4 @@
+import ReactMarkdown from "react-markdown";
 import { Bot, User } from "lucide-react";
 import styles from "./MessageBubble.module.css";
 
@@ -28,7 +29,13 @@ export default function MessageBubble({ message }: MessageBubbleProps) {
       <div
         className={`${styles.bubble} ${isUser ? styles.userBubble : styles.botBubble}`}
       >
-        <p className={styles.text}>{message.content}</p>
+        <div className={styles.text}>
+          {isUser ? (
+            message.content
+          ) : (
+            <ReactMarkdown>{message.content}</ReactMarkdown>
+          )}
+        </div>
         <span className={styles.time}>
           {message.timestamp.toLocaleTimeString([], {
             hour: "2-digit",
