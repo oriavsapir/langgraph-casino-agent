@@ -1,0 +1,62 @@
+:root {
+  /* Casino luxury palette */
+  --bg-primary: #0f0f1a;
+  --bg-secondary: #1a1a2e;
+  --bg-tertiary: #16213e;
+  --bg-card: #1e1e36;
+  --bg-input: #252545;
+  --bg-user-bubble: #c9a84c;
+  --bg-bot-bubble: #1e1e36;
+  --text-primary: #f0e6d3;
+  --text-secondary: #a89b8c;
+  --text-on-gold: #1a1a2e;
+  --gold: #c9a84c;
+  --gold-light: #e0c76a;
+  --gold-dark: #a8893e;
+  --border: #2a2a4a;
+  --border-focus: #c9a84c;
+  --shadow-glow: 0 0 20px rgba(201, 168, 76, 0.15);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+  --font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: var(--radius-full);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-dark);
+}
