@@ -85,7 +85,7 @@ FAREWELL_MESSAGE = (
 )
 
 
-def build_classify_node(llm: ChatOpenAI):
+def build_classify_node(llm: BaseChatModel):
     """Return a node function that classifies user intent via the LLM."""
 
     async def classify_intent(state: AgentState) -> dict[str, Any]:
