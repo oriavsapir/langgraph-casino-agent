@@ -1,5 +1,8 @@
 """Tests for the PropertyKnowledgeStore."""
 
+import tempfile
+
+import chromadb
 from langchain_core.documents import Document
 
 from app.knowledge.store import PropertyKnowledgeStore
@@ -28,10 +31,24 @@ class TestPropertyKnowledgeStore:
         assert "poker" in contents.lower()
 
     def test_empty_store(self):
-        store = PropertyKnowledgeStore(documents=[])
-        assert store.document_count == 0
+        # Use a fresh PersistentClient with a unique temp dir for test isolation
+        with tempfile.TemporaryDirectory() as tmpdir:
+            client = chromadb.PersistentClient(path=tmpdir)
+            store = PropertyKnowledgeStore(
+                documents=[],
+                collection_name="property_knowledge_empty",
+                client=client,
+            )
+            assert store.document_count == 0
 
     def test_empty_store_search(self):
-        store = PropertyKnowledgeStore(documents=[])
-        results = store.search("anything", k=3)
-        assert results == []
+        # Use a fresh PersistentClient with a unique temp dir for test isolation
+        with tempfile.TemporaryDirectory() as tmpdir:
+            client = chromadb.PersistentClient(path=tmpdir)
+            store = PropertyKnowledgeStore(
+                documents=[],
+                collection_name="property_knowledge_empty",
+                client=client,
+            )
+            results = store.search("anything", k=3)
+            assert results == []
