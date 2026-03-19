@@ -257,5 +257,5 @@ The agent enforces boundaries through two complementary mechanisms:
 
 # POC
 <img width="792" height="927" alt="image" src="https://github.com/user-attachments/assets/3788d2f4-45b7-4a5c-9f69-28692b765426" />
-![Uploading image.png…]()
+<img width="793" height="912" alt="image" src="https://github.com/user-attachments/assets/f41476b4-06a8-4415-bb44-00d8a5a4095f" />
 
